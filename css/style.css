@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.navbar .nav-item{
+   padding: 0rem 8px;
+}
+
+body{
+    background-color: rgb(166, 247, 247);
+}
+
+.swiper-slide{
+    height: 100vh;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+#about p {
+    text-align: justify;
+}
+
+.icons {
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.carousel-caption {
+    bottom: 10rem;
+}
+
+/* swiper slider code */
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+
